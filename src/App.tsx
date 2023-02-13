@@ -29,6 +29,7 @@ function App() {
   const [globalStyle,setGlobalStyle] = useState(style)
 
   return <>
+  <h1>SSBU Fansite</h1>
   <BrowserRouter>
 
   <styleContext.Provider value={{style:globalStyle,setGlobalStyle:setGlobalStyle}}>
